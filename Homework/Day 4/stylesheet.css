@@ -4,8 +4,8 @@ body {
 }
 
 #card {
-  width: 600px;
-  height: 700px;
+  width: 400px;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -29,11 +29,88 @@ body {
 
 #card-save {
   position: absolute;
+  width: 75px;
+  height: 50px;
+  top: 0;
+  background-color: red;
+  border-radius: 25px;
+  z-index: 10;
+  right: 10px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+#card-save:hover {
+  display: none;
+  transition-duration: 5ms;
+}
+
+#card-link {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 25px;
+  z-index: 10;
+  left: 10px;
+  bottom: 0;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+#card-upload {
+  position: absolute;
   width: 50px;
   height: 50px;
-  margin-left: auto;
-  margin-bottom: auto;
-  background-color: red;
+  background-color: white;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 10;
+  left: 260px;
+  bottom: 0;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+#card-uploads {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 10;
+  left: 320px;
+  bottom: 0;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+#save {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.Circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.text {
+  position: absolute;
+  bottom: 32%;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  font-size: 1.3em;
+}
+
+.textplace {
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  color: black;
+  font-size: 2em;
 }
