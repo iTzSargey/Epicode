@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+
+.green {
+  color: green;
+  background-color: lightyellow;
+  border-top: 1px solid orange;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.sally {
+  color: green;
+  text-align: center;
+}
+
+.featured {
+  color: red;
+}
