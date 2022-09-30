@@ -91,7 +91,7 @@ img {
   bottom: 12vh;
   border-radius: 15px;
   overflow: hidden;
-  transition: box-shadow 0.5s;
+  transition: box-shadow 1s;
   z-index: 1;
   background-image: linear-gradient(#124e78, #d74e09);
   position: absolute;
