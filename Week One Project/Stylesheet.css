@@ -62,7 +62,6 @@ img {
   width: auto;
   height: auto;
   border-radius: 50%;
-  display: none;
 }
 
 .card {
@@ -132,7 +131,7 @@ h1 {
 }
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 1.8em;
   text-align: center;
   colour: black;
@@ -205,4 +204,37 @@ span {
 
 .fa-brands {
   cursor: pointer;
+}
+
+.p7 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 4em;
+  color: black;
+  z-index: 9999;
+  position: relative;
+  text-align: center;
+}
+
+.p8 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  text-align: justify;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+
+.card3 {
+  width: 800px;
+  height: 675px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 7vh;
+  position: absolute;
+  top: -3vh;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: box-shadow 0.5s;
+  z-index: 99;
+  background-color: white;
+  display: inline-block;
 }
