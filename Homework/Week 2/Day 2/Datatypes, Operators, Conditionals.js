@@ -28,25 +28,27 @@ ASSIGNMENT RULES
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
 */
 
-/* console.log(12 + 20) */
+let sum = 12 + 20; 
+console.log(sum); 
 
 /* EXERCISE 4
  Create a variable named x and assign to it the number 12.
 */
 
-/*  let x = 12 */
+let x = 12 
+console.log(x)
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
-/* let name = 'John Doe' */
+let name = 'John Doe'
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
 */
 
-/* console.log(x - 12); */
+console.log(x - 12);
 
 /* EXERCISE 7
  Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
@@ -54,13 +56,13 @@ ASSIGNMENT RULES
  Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
 */
 
-/*  let name1 = 'john' 
+    let name1 = 'john' 
     let name2 = 'John'
-    let namecheck = name1 && name2 && true
+    let namecheck = name1 === name2;
     
     console.log ('namecheck', namecheck)
 
-    */
+
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
